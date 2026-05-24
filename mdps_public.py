@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun May  8 21:01:15 2022
 
-@author: siddhardhan
-"""
 
 import pickle
 import streamlit as st
@@ -21,7 +17,7 @@ parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 
 
 # sidebar for navigation
-with st.sidebar:
+with st. sidebar:
     
     selected = option_menu('Multiple Disease Prediction System',
                           
