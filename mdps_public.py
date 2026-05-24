@@ -32,7 +32,7 @@ parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 with st.sidebar:
 
     selected = option_menu(
-        'Multiple Disease Prediction System',
+        'Hakase DR',
 
         ['Diabetes Prediction',
          'Heart Disease Prediction',
@@ -49,7 +49,7 @@ with st.sidebar:
 
 if selected == 'Diabetes Prediction':
 
-    st.title('Diabetes Prediction using ML')
+    st.title('Diabetes Prediction ')
 
     col1, col2, col3 = st.columns(3)
 
@@ -130,7 +130,7 @@ if selected == 'Diabetes Prediction':
 
 if selected == 'Heart Disease Prediction':
 
-    st.title('Heart Disease Prediction using ML')
+    st.title('Heart Disease Prediction ')
 
     col1, col2, col3 = st.columns(3)
 
@@ -237,7 +237,7 @@ if selected == 'Heart Disease Prediction':
 
 if selected == "Parkinsons Prediction":
 
-    st.title("Parkinson's Disease Prediction using ML")
+    st.title("Parkinson's Disease Prediction ")
 
     col1, col2, col3, col4, col5 = st.columns(5)
 
